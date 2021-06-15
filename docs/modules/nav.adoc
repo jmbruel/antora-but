@@ -1,0 +1,8 @@
+.List Document séparé en pages 
+* xref:ROOT:master.adoc[Accueil]
+* xref:intro:master.adoc[Intro]
+* xref:preface:master.adoc[Préface]
+* xref:about:master.adoc[About]
+
+.List Document sur une page 
+* xref:org:master.adoc[Document unique]

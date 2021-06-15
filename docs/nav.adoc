@@ -1,2 +1,0 @@
-* xref:ROOT.master.adoc[Séparé en pages]
-* xref:org:master.adoc[Document unique]

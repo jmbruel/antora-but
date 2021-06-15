@@ -27,7 +27,7 @@ content:
 site:
   # Attention : PLANTE si pas de delimiteurs de chaine de caracteres
   # title: 'Rapport de memoire Antora'
-  url: http://dev.waskalito.fr:8003
+  url: http://dev.waskalito.fr:8004
 
 # https://docs.antora.org/antora/2.3/playbook/configure-ui/
 # https://docs.antora.org/antora/2.3/playbook/ui-bundle-url/

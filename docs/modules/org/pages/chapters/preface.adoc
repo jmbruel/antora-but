@@ -1,6 +1,6 @@
+:page-partial:
 [[AvantPropos]]
 = Avant-propos
-
 == Ce que *n'est pas* ce livre :
 
 Ce livre *n'est pas* :

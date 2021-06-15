@@ -20,6 +20,7 @@ v1.6, {localdate}
 :section-refsig: Section
 :appendix-refsig: Annexe
 
+
 include::./definitions.adoc[]
 
 //-----------------------------------------------
@@ -51,7 +52,7 @@ Reste à faire :
 endif::final[]
 //-----------------------------------------------
 
-include::./chapters//about.adoc[leveloffset=+1]
+include::./chapters/about.adoc[leveloffset=+1]
 
 include::./chapters/preface.adoc[leveloffset=+1]
 

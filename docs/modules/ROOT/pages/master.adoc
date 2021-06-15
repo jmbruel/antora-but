@@ -49,16 +49,3 @@ Reste à faire :
 * [ ] Revoir les commentaires de Seb (Cadres, Outils, etc.)
 ====
 endif::final[]
-//-----------------------------------------------
-
-include::about:about.adoc[leveloffset=+1]
-
-include::preface:preface.adoc[leveloffset=+1]
-
-:numbered:
-
-include::intro:introduction.adoc[leveloffset=+1]
-// a la fin
-
-// I have removed everything that is after that
-//-----------------------------------------------
