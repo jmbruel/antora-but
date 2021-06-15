@@ -20,7 +20,7 @@ v1.6, {localdate}
 :section-refsig: Section
 :appendix-refsig: Annexe
 
-include::definitions.txt[]
+include::./definitions.adoc[]
 
 //-----------------------------------------------
 //-- Affichage du statut GitHub d'intégration continue
@@ -51,13 +51,13 @@ Reste à faire :
 endif::final[]
 //-----------------------------------------------
 
-include::chapters/about.adoc[leveloffset=+1]
+include::./chapters//about.adoc[leveloffset=+1]
 
-include::chapters/preface.adoc[leveloffset=+1]
+include::./chapters/preface.adoc[leveloffset=+1]
 
 :numbered:
 
-include::chapters/introduction.adoc[leveloffset=+1]
+include::./chapters/introduction.adoc[leveloffset=+1]
 // a la fin
 
 // I have removed everything that is after that

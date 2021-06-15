@@ -19,7 +19,7 @@ content:
   sources:
   - url: ..
     branches: HEAD
-    start_path: ../docs
+    start_path: docs
 
 # https://docs.antora.org/antora/2.3/playbook/configure-site/
 # On définit ici l'URL qui permettra d'accéder au site créé par
