@@ -1,0 +1,64 @@
+= SysML par la pratique avec Papyrus
+Jean-Michel Bruel <bruel@irit.fr>; Sébastien Gérard <Sebastien.Gerard@cea.fr>
+v1.6, {localdate}
+:myinitials: JMB
+:doctype: book
+:toc: left
+:toc-title: Table des Matières
+//:data-uri:
+:lang: fr
+:icons: font
+:final!: //enlever le '!' pour enlever tous les commentaires
+:imagesdir: images
+:experimental:
+:linkcss:
+:title-page-background-image: image:papyrus-logo.png[pdfwidth=25%]
+:defs: defs
+:xrefstyle: short
+// short full basic
+:chapter-refsig: Chapitre
+:section-refsig: Section
+:appendix-refsig: Annexe
+
+include::definitions.txt[]
+
+//-----------------------------------------------
+//-- Affichage du statut GitHub d'intégration continue
+//-----------------------------------------------
+ifndef::backend-pdf[]
+image:https://travis-ci.org/jmbruel/sysmlpapyrusbook.svg?branch=master["Build Status", link="https://travis-ci.org/jmbruel/sysmlpapyrusbook"]
+(Fork me on https://github.com/jmbruel/sysmlpapyrusbook[icon:github[] GitHub])
+endif::backend-pdf[]
+
+
+
+[preface]
+//-----------------------------------------------
+//-- Commentaire
+//-----------------------------------------------
+ifndef::final[]
+.Commentaire
+[CAUTION]
+====
+Si vous lisez ce commentaire, c'est que cette version est en cours de construction!
+
+Reste à faire :
+
+* [ ] Changer le site du livre par https://github.com/ PapyrusSysMLinAction/SmartHomeUseCase
+* [ ] Ajouter le lien vers le standalone de Papyrus-SysML si disponible
+* [ ] Revoir les commentaires de Seb (Cadres, Outils, etc.)
+====
+endif::final[]
+//-----------------------------------------------
+
+include::chapters/about.adoc[leveloffset=+1]
+
+include::chapters/preface.adoc[leveloffset=+1]
+
+:numbered:
+
+include::chapters/introduction.adoc[leveloffset=+1]
+// a la fin
+
+// I have removed everything that is after that
+//-----------------------------------------------

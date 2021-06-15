@@ -1,0 +1,6 @@
+
+[[Intro]]
+= Introduction
+
+{SysML} est un langage de modélisation, souvent considéré comme une notation.
+La principale difficulté, avec {SysML}, c'est que cette notation n'est associée à aucune méthode en particulier, ni aucun outil en particulier ...

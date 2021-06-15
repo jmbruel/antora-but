@@ -1,0 +1,23 @@
+[[AvantPropos]]
+= Avant-propos
+
+== Ce que *n'est pas* ce livre :
+
+Ce livre *n'est pas* :
+
+- un livre de référence sur {sysml} (pour cela, même s'il est en anglais, nous conseillons <<Friedenthal2016>>)
+- un livre sur la meilleure approche méthodologique possible avec {sysml}. Il n'en existe pas. Une méthode est bonne si elle vous est adaptée, en particulier si elle prend en compte les besoins et les contraintes  de votre niveau d'experise, ou encore de vos préoccupations.
+- un livre pour réviser l'examen de certification de l'{OMG} ou de l'{incose}, comme <<OCSMP>>
+ (mieux vaut vous plonger dans la spécification de référence <<SysML>>)
+
+== Pourquoi lire ce livre ?
+
+Il peut y avoir plusieurs raisons de lire ce livre, même partiellement.
+//Voici les différentes raisons qui peuvent vous y avoir amené :
+Vous pouvez vous reconnaître dans l'une des situations suivantes :
+
+Je souhaite améliorer mon processus d'ingénierie système {IS}::
+Vous êtes un professionnel dans le domaine de l'ingénierie système et vous êtes intéressé par la modélisation.
+Nous espérons que les conseils pratiques, appliqués avec l'outil {papyrus},
+vous permettront de tester l'intérêt de {sysml} pour votre domaine.
+...
