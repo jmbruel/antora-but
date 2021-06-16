@@ -17,7 +17,7 @@ output:
 # configuration antora.yml
 content:
   sources:
-  - url: https://github.com/RaskalitoDesOuabes/antora-jmb
+  - url: git@github.com:RaskalitoDesOuabes/antora-jmb.git
     start_path: docs
 
 

@@ -6,7 +6,7 @@
 include::ROOT:page$definitions.adoc[]
 
 
-[grid=none,frame=none,cols="25h,~"]
+[grid=none,frame=none,cols="15h,~"]
 |===
 | |  
 
