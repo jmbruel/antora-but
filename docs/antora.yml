@@ -15,5 +15,5 @@ start_page: ROOT:master.adoc
 
 # https://docplayer.fr/169511571-Asciidoc-asciidoctor-antora.html
 nav:
-- modules/nav.adoc
+- modules/ROOT/nav.adoc
 

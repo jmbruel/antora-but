@@ -1,6 +1,9 @@
 [[AvantPropos]]
 = Avant-propos
 
+include::ROOT:page$definitions.adoc[]
+
+
 == Ce que *n'est pas* ce livre :
 
 Ce livre *n'est pas* :
