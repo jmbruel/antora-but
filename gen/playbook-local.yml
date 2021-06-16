@@ -26,7 +26,7 @@ content:
 # Antora depuis l'extérieur.
 site:
   # Attention : PLANTE si pas de delimiteurs de chaine de caracteres
-  # title: 'Rapport de memoire Antora'
+  title: 'SysML via Antora'
   url: http://dev.waskalito.fr:8004
 
 # https://docs.antora.org/antora/2.3/playbook/configure-ui/
