@@ -1,0 +1,8 @@
+*.log
+gen/output/
+
+gen/node_modules/
+gen/package-lock.json
+
+node/node_modules/
+node/package-lock.json

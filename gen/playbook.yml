@@ -1,0 +1,47 @@
+# https://docs.antora.org/antora/2.3/playbook/runtime-fetch/
+# On force ici git clone à ne pas considérer le cache créé par Antora
+runtime:
+  fetch: true
+
+# https://docs.antora.org/antora/2.0/playbook/configure-output/
+# On définit ici la destination de sortie. On choisit ici un
+# répertoire local. Celui-ci devra être accessible depuis l'
+# URL déclaré dans la section "content:"
+output:
+  clean: true
+  dir: ./output
+
+# https://docs.antora.org/antora/2.3/playbook/configure-content-sources/
+# On définit ici la source du dépôt git et le chemin relatif dans le dépôt corespondant
+# au réperoire de référence d'Antora : L'endroit où Antora trouvera le fichier de
+# configuration antora.yml
+content:
+  sources:
+  - url: git@github.com:RaskalitoDesOuabes/antora-jmb.git
+    start_path: docs
+
+
+# https://docs.antora.org/antora/2.3/playbook/configure-site/
+# On définit ici l'URL qui permettra d'accéder au site créé par
+# Antora depuis l'extérieur.
+site:
+  # Attention : PLANTE si pas de delimiteurs de chaine de caracteres
+  title: 'SysML via Antora'
+  url: http://dev.waskalito.fr:8004
+
+# https://docs.antora.org/antora/2.3/playbook/configure-ui/
+# https://docs.antora.org/antora/2.3/playbook/ui-bundle-url/
+# https://github.com/stephengold/antora-ui-bundle
+# Choix du bundle par défaut d'Antora : Design de sortie.
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+
+# https://blog.anoff.io/2019-04-19-antora-plantuml-customize-ui/
+# On intègre l'extension PlantUML.
+asciidoc:
+  extensions:
+    - asciidoctor-plantuml
+  attributes:
+    plantuml-server-url: 'http://www.plantuml.com/plantuml'

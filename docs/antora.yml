@@ -1,0 +1,19 @@
+# https://docs.antora.org/antora/2.3/component-version-descriptor/
+
+# https://docs.antora.org/antora/2.3/component-name-and-version/
+name: antora-JMB
+version: '0.1'
+
+# https://docs.antora.org/antora/2.3/component-display-version/
+display_version: α
+
+# https://docs.antora.org/antora/2.3/component-title/
+title: SysML par la pratique
+
+# https://docs.antora.org/antora/2.3/component-start-page/
+start_page: ROOT:master.adoc
+
+# https://docplayer.fr/169511571-Asciidoc-asciidoctor-antora.html
+nav:
+- modules/ROOT/nav.adoc
+
