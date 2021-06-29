@@ -19,7 +19,8 @@ content:
   sources:
 #  - url: ..
     - url: https://github.com/jmbruel/antora-but
-      branches: HEAD, 0.2
+      branches: [master, test]
+      tags: v*
       start_path: docs
 
 # https://docs.antora.org/antora/2.3/playbook/configure-site/
