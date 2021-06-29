@@ -5,10 +5,10 @@ name: antora-JMB
 version: '0.1'
 
 # https://docs.antora.org/antora/2.3/component-display-version/
-display_version: α
+# display_version: α
 
 # https://docs.antora.org/antora/2.3/component-title/
-title: SysML par la pratique
+title: BUT Informatique Blagnac
 
 # https://docs.antora.org/antora/2.3/component-start-page/
 start_page: ROOT:master.adoc
