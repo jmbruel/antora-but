@@ -20,7 +20,7 @@ content:
 #  - url: ..
     - url: https://github.com/jmbruel/antora-but
       branches: [master, test]
-      tags: [v*, v0.2]
+      tags: v*
       start_path: docs
 
 # https://docs.antora.org/antora/2.3/playbook/configure-site/
