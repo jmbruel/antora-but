@@ -4,7 +4,14 @@
 :heures-sae: 12
 = SAÉ {num-sae}: {mytitle}
 :icons: font
-include::ROOT:page$definitions.adoc[]
+ifndef::backend-pdf[include::ROOT:page$definitions.adoc[]]
+// ------------ For individual PDF ouputs -------------
+ifdef::backend-pdf[]
+include::../../ROOT/pages/definitions.adoc[]
+:imagesdir: ../images
+:allow-uri-read: 
+:safe: unsafe
+endif::[]
 
 == Programme national
 
@@ -13,7 +20,12 @@ image:descriptif.png["descriptif",width={mywidth}%,pdfwidth={mywidth}%]
 image:cursus.png["cursus",width={mywidth}%,pdfwidth={mywidth}%]
 image:competences.png["competences",width={mywidth}%,pdfwidth={mywidth}%]
 
+ifdef::backend-pdf[]
+== Déclinaison {year} image:../../ROOT/images/dpt-info.png["logo iut",width=10%,pdfwidth=10%]
+endif::[]
+ifndef::backend-pdf[]
 == Déclinaison {year} image:ROOT:dpt-info.png["logo iut",width=10%,pdfwidth=10%]
+endif::[]
 
 === Présentation de la SAÉ {num-sae}
 
@@ -61,7 +73,7 @@ Les besoins du client doivent être réel.
 | === icon:graduation-cap[] Qui ?
 
 - {ep} (p)
-- {jmb} (p) image:jmb.jpg[width=10%] 
+- {jmb} (p) image:jmb.jpg[width=10%, pdfwidth=10%] 
 - {pso} (p)
 - {lc}  (v)
 - {tg} (v)
