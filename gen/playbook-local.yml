@@ -17,17 +17,18 @@ output:
 # configuration antora.yml
 content:
   sources:
-  - url: ..
-    branches: HEAD
-    start_path: docs
+#  - url: ..
+    - url: https://github.com/jmbruel/antora-but
+      branches: HEAD
+      start_path: docs
 
 # https://docs.antora.org/antora/2.3/playbook/configure-site/
 # On définit ici l'URL qui permettra d'accéder au site créé par
 # Antora depuis l'extérieur.
 site:
   # Attention : PLANTE si pas de delimiteurs de chaine de caracteres
-  title: 'SysML via Antora'
-  url: http://dev.waskalito.fr:8004
+  title: 'BUT Informatique Blagnac'
+  url: https://jmbruel.github.io/antora-but
 
 # https://docs.antora.org/antora/2.3/playbook/configure-ui/
 # https://docs.antora.org/antora/2.3/playbook/ui-bundle-url/
